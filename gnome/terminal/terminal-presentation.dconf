@@ -1,0 +1,13 @@
+[/]
+foreground-color='rgb(60,56,54)'
+visible-name='presentation'
+audible-bell=false
+palette=['rgb(253,244,193)', 'rgb(204,36,29)', 'rgb(152,151,26)', 'rgb(215,153,33)', 'rgb(69,133,136)', 'rgb(177,98,134)', 'rgb(104,157,106)', 'rgb(102,92,84)', 'rgb(168,153,132)', 'rgb(157,0,6)', 'rgb(121,116,14)', 'rgb(181,118,20)', 'rgb(7,102,120)', 'rgb(143,63,113)', 'rgb(66,123,88)', 'rgb(60,56,54)']
+use-system-font=false
+use-transparent-background=true
+use-theme-colors=false
+font='DejaVu Sans Mono 14'
+background-color='rgb(253,244,193)'
+background-transparency-percent=9
+scrollback-lines=100000
+scrollbar-policy='never'
