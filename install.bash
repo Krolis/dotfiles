@@ -42,6 +42,7 @@ link_prompt "$DIR/git/cvsignore" "$HOME/.cvsignore"
 # vim
 link_prompt "$DIR/vim/vimrc" "$HOME/.vimrc"
 link_prompt "$DIR/vim/gvimrc" "$HOME/.gvimrc"
+link_prompt "$DIR/vim/ideavimrc" "$HOME/.ideavimrc"
 link_prompt "$DIR/vim" "$HOME/.vim"
 
 # bash
