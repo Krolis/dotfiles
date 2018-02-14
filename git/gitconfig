@@ -5,12 +5,16 @@
 [user]
     name = Dominik Kroliczek
     email = dominik@kroliczek.com
+    signingkey = BAE9987AF5D7C33F
 
 [color]
     ui = true
     branch = auto
     diff = auto
     status = auto
+
+[commit]
+    gpgsign = true
 
 [push]
     default = upstream
