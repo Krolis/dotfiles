@@ -1,9 +1,9 @@
 # dotfiles
 
-My development environment configuration.
+Development environment configuration.
+
+Forked and simplified to only basic usage.
 
 ## Installation
-
-Clone repository with `--recursive` flag or run `git submodule update --init`.
 
 Run `./install.bash`. The installation script will prompt before replacing any existing files.
