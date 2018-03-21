@@ -37,7 +37,6 @@ link_prompt() {
 
 # git
 link_prompt "$DIR/git/gitconfig" "$HOME/.gitconfig"
-link_prompt "$DIR/git/cvsignore" "$HOME/.cvsignore"
 
 # vim
 link_prompt "$DIR/vim/vimrc" "$HOME/.vimrc"
@@ -54,12 +53,8 @@ link_prompt "$DIR/bash/inputrc" "$HOME/.inputrc"
 link_prompt "$DIR/bash/bash_completion" "$HOME/.bash_completion"
 link_prompt "$DIR/bash/completions" "$HOME/.bash_completion.d"
 
-# windows
-if [[ "$(uname)" == MINGW* ]]; then
-    link_prompt "$DIR/win32/mintty/minttyrc" "$HOME/.minttyrc"
-else # Linux
-    link_prompt "$DIR/tmux/tmux.conf" "$HOME/.tmux.conf"
-fi
+# tmux
+link_prompt "$DIR/tmux/tmux.conf" "$HOME/.tmux.conf"
 
 if [ -n "$NEW" ]; then
     echo

@@ -1,5 +1,6 @@
 # ------------ Path ---------------
 export PATH="$HOME/.local/bin:$PATH"
+export NVM_DIR="$HOME/.nvm"
 
 # ------ Check interactive --------
 case $- in
@@ -107,3 +108,7 @@ if ! shopt -oq posix; then
         source /usr/share/bash-completion/bash_completion
     fi
 fi
+
+# ---------- NVM -----------
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
