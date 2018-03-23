@@ -58,6 +58,7 @@ link_prompt "$DIR/tmux/tmux.conf" "$HOME/.tmux.conf"
 
 # gpg
 link_prompt "$DIR/gnupg/gpg-agent.conf" "$HOME/.gnupg/gpg-agent.conf"
+link_prompt "$DIR/gnupg/gpg.conf" "$HOME/.gnupg/gpg.conf"
 
 if [ -n "$NEW" ]; then
     echo
