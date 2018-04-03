@@ -6,3 +6,7 @@ alias vf 'vim (fzf)'
 alias g 'git'
 alias gs 'git status'
 alias xcp 'xclip -selection c'
+
+# ----- NVM
+# git clone https://github.com/Alex7Kom/nvm-fish.git ~/.nvm-fish
+source ~/.nvm-fish/nvm.fish
