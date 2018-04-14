@@ -1,4 +1,7 @@
 set -g -x fish_greeting 'dont be shellfish'
+set -g -x PATH $PATH ~/.yarn/bin
+
+
 
 # ----- Alias
 alias v 'vim'
