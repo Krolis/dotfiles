@@ -4,8 +4,8 @@
 
 [user]
     name = Dominik Kroliczek
-    email = dominik@kroliczek.com
-    signingkey = BAE9987AF5D7C33F
+    email = dominik.kroliczek@pragmaticcoders..com
+    signingkey = BE71E47A5BC25A76
 
 [gpg]
     program=gpg2
